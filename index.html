@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Computing</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f8fb;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#0077cc;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#005fa3;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    padding:70px;
+    text-align:center;
+    background:linear-gradient(to right,#00aaff,#005fa3);
+    color:white;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:20px;
+}
+
+section{
+    padding:40px;
+}
+
+h2{
+    color:#0077cc;
+    margin-bottom:15px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+ul{
+    margin-left:25px;
+}
+
+.providers{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.provider{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+}
+
+.provider a{
+    text-decoration:none;
+    color:#0077cc;
+    font-weight:bold;
+}
+
+.provider a:hover{
+    color:red;
+}
+
+.source-link{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 20px;
+    background:#0077cc;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+.source-link:hover{
+    background:#005fa3;
+}
+
+footer{
+    background:#005fa3;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Cloud Computing</h1>
+<p>Everything You Need to Know About Cloud Technology</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#types">Types</a>
+<a href="#services">Services</a>
+<a href="#benefits">Benefits</a>
+<a href="#providers">Providers</a>
+<a href="#resources">Resources</a>
+<a href="#source">Source Code</a>
+</nav>
+
+<div class="hero">
+<h1>Welcome to Cloud Computing</h1>
+<p>Store, Access, and Manage Data Over the Internet Instead of Your Computer.</p>
+</div>
+
+<section id="about">
+<h2>What is Cloud Computing?</h2>
+
+<div class="card">
+<p>
+Cloud Computing is the delivery of computing services such as storage,
+servers, databases, networking, software, analytics, and more over the
+Internet. It allows users to access computing resources whenever needed
+without owning physical hardware.
+</p>
+</div>
+</section>
+
+<section id="types">
+<h2>Types of Cloud Computing</h2>
+
+<div class="card">
+<ul>
+<li><b>Public Cloud:</b> Available to everyone over the Internet.</li>
+<li><b>Private Cloud:</b> Dedicated to a single organization.</li>
+<li><b>Hybrid Cloud:</b> Combination of public and private clouds.</li>
+<li><b>Multi-Cloud:</b> Uses services from multiple cloud providers.</li>
+</ul>
+</div>
+</section>
+
+<section id="services">
+<h2>Cloud Service Models</h2>
+
+<div class="card">
+<ul>
+<li><b>IaaS:</b> Infrastructure as a Service.</li>
+<li><b>PaaS:</b> Platform as a Service.</li>
+<li><b>SaaS:</b> Software as a Service.</li>
+</ul>
+</div>
+</section>
+
+<section id="benefits">
+<h2>Advantages of Cloud Computing</h2>
+
+<div class="card">
+<ul>
+<li>Cost Effective</li>
+<li>Scalable</li>
+<li>Secure</li>
+<li>Automatic Backup</li>
+<li>Easy Access from Anywhere</li>
+<li>Fast Deployment</li>
+<li>Automatic Software Updates</li>
+</ul>
+</div>
+</section>
+
+<section id="providers">
+<h2>Popular Cloud Providers</h2>
+
+<div class="providers">
+
+<div class="provider">
+<h3>Amazon Web Services</h3>
+<p>World's leading cloud platform.</p>
+<a href="https://aws.amazon.com" target="_blank">Visit AWS</a>
+</div>
+
+<div class="provider">
+<h3>Microsoft Azure</h3>
+<p>Cloud services by Microsoft.</p>
+<a href="https://azure.microsoft.com" target="_blank">Visit Azure</a>
+</div>
+
+<div class="provider">
+<h3>Google Cloud</h3>
+<p>Google's cloud platform.</p>
+<a href="https://cloud.google.com" target="_blank">Visit Google Cloud</a>
+</div>
+
+<div class="provider">
+<h3>IBM Cloud</h3>
+<p>Enterprise cloud solutions.</p>
+<a href="https://www.ibm.com/cloud" target="_blank">Visit IBM Cloud</a>
+</div>
+
+</div>
+</section>
+
+<section id="resources">
+<h2>Useful Learning Resources</h2>
+
+<div class="card">
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank">Cloud Computing - Wikipedia</a></li>
+
+<li><a href="https://aws.amazon.com/what-is-cloud-computing/" target="_blank">AWS - What is Cloud Computing?</a></li>
+
+<li><a href="https://cloud.google.com/learn/what-is-cloud-computing" target="_blank">Google Cloud Learning</a></li>
+
+<li><a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/" target="_blank">Microsoft Azure Guide</a></li>
+</ul>
+</div>
+</section>
+
+<section id="source">
+<h2>Website Source Code</h2>
+
+<div class="card">
+
+<p>
+This website was built using HTML and CSS. You can view the complete source code by clicking the button below.
+</p>
+
+<a class="source-link"
+href="https://github.com/YOUR_USERNAME/cloud-computing-website"
+target="_blank">
+View Source Code on GitHub
+</a>
+
+</div>
+</section>
+<section id="funfacts">
+
+<h2>Fun Facts About Cloud Computing</h2>
+
+<div class="card">
+
+<p>
+Want to discover some amazing and interesting facts about Cloud Computing?
+Click the link below to explore a dedicated webpage with fun facts about how
+the cloud works and how it is used in everyday life.
+</p>
+
+<br>
+
+<a href="funfacts.html"
+target="_blank"
+style="font-size:18px; font-weight:bold; color:#0077cc;">
+🌩️ Explore Fun Facts About Cloud Computing
+</a>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Cloud Computing Information Website</p>
+</footer>
+
+</body>
+</html>
